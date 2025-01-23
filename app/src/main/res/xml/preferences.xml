@@ -1,0 +1,47 @@
+<!-- res/xml/preferences.xml -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Preferencia de idioma -->
+    <PreferenceCategory app:title="General">
+        <ListPreference
+            app:key="language"
+            app:title="@string/idioma"
+            app:icon="@drawable/baseline_language_24"
+            app:entries="@array/languages"
+            app:entryValues="@array/language_codes"
+            app:defaultValue="es" />
+    </PreferenceCategory>
+
+    <!-- Preferencia para eliminar Pokémon -->
+    <PreferenceCategory app:title="Pokemons">
+        <SwitchPreferenceCompat
+            app:key="delete_pokemon"
+            app:icon="@drawable/baseline_delete_24"
+            app:title="@string/eliminar_pokemon_capturado"
+            app:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Varios">
+        <!-- Preferencia "Acerca de" -->
+        <Preference
+            app:key="about"
+            app:icon="@drawable/baseline_info_24"
+            app:title="@string/about"
+            app:summary="@string/about_summary" />
+
+        <!-- Preferencia "Cerrar sesión" -->
+        <Preference
+            app:key="logout"
+            app:icon="@drawable/baseline_exit_to_app_24"
+            app:title="@string/cerrar_sesion"
+            app:summary="@string/cerrar_sesion_summary"/>
+
+        <!-- Preferencia "Reiniciar SharedPreferences al Default" -->
+        <Preference
+            app:key="reset"
+            app:icon="@drawable/baseline_lock_reset_24"
+            app:title="@string/reset_configuration"
+            app:summary="@string/reset_configuracion_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

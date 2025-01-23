@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de colores principal -->
+    <color name="primary">#1976D2</color> <!-- Azul Firebase -->
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#42A5F5</color>
+    <color name="secondary">#FFA000</color> <!-- Naranja Firebase -->
+    <color name="secondary_dark">#FF8F00</color>
+    <color name="secondary_light">#FFB74D</color>
+
+    <!-- Colores de fondo y superficie -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#212121</color>
+
+    <!-- Colores de estado -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Colores base -->
+    <color name="white">#FDFEFE</color>
+    <color name="textWhite">#FDFEFE</color>
+    <color name="pokemonRed">#FF0000</color>
+    <color name="pokemonDarkRed">#8B0000</color>
+    <color name="pokemonYellow">#FFDE00</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="blue_pokemon">#0055A4</color>
+    <color name="yellow_pokemon">#FFCB05</color>
+    <color name="red_pokemon">#D62228</color>
+    <color name="gray">#888888</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="softer_gray">#E0E0E0</color>
+    <color name="almost_white_gray">#F5F5F5</color>
+    <color name="grey">#757575</color>
+    <color name="background_nav">#D62228</color>
+    <color name="accent">#FFC107</color>
+    <color name="default_background">#FFFFFF</color>
+    <color name="selected_background">#888888</color>
+
+    <!-- Colores para los tipos de Pokemons -->
+    <color name="type_normal">#A8A878</color> <!-- Normal -->
+    <color name="type_fire">#F08030</color> <!-- Fire -->
+    <color name="type_water">#6890F0</color> <!-- Water -->
+    <color name="type_electric">#F8D030</color> <!-- Electric -->
+    <color name="type_grass">#78C850</color> <!-- Grass -->
+    <color name="type_ice">#98D8D8</color> <!-- Ice -->
+    <color name="type_fighting">#C03028</color> <!-- Fighting -->
+    <color name="type_poison">#A040A0</color> <!-- Poison -->
+    <color name="type_ground">#E0C068</color> <!-- Ground -->
+    <color name="type_flying">#A890F0</color> <!-- Flying -->
+    <color name="type_psychic">#F85888</color> <!-- Psychic -->
+    <color name="type_bug">#A8B820</color> <!-- Bug -->
+    <color name="type_rock">#B8A038</color> <!-- Rock -->
+    <color name="type_ghost">#705898</color> <!-- Ghost -->
+    <color name="type_dragon">#7038F8</color> <!-- Dragon -->
+    <color name="type_dark">#705848</color> <!-- Dark -->
+    <color name="type_steel">#B8B8D0</color> <!-- Steel -->
+    <color name="type_fairy">#EE99AC</color> <!-- Fairy -->
+    <color name="type_default">#808080</color> <!-- Default color -->
+
+</resources>

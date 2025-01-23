@@ -1,0 +1,62 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base para la aplicación -->
+    <style name="Base.Theme.Pokedex" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+         <!-- Colores principales -->
+        <item name="colorPrimary">@color/pokemonRed</item> <!-- Color primario -->
+        <item name="colorPrimaryDark">@color/pokemonDarkRed</item> <!-- Color primario oscuro -->
+        <item name="colorOnPrimary">@color/textWhite</item> <!-- Color del texto sobre el color primario -->
+        <item name="colorSecondary">@color/pokemonYellow</item> <!-- Color secundario -->
+        <item name="colorSecondaryVariant">@color/pokemonYellow</item> <!-- Variante del color secundario -->
+        <item name="colorOnSecondary">@color/black</item> <!-- Color del texto sobre el color secundario -->
+
+        <!-- Colores de fondo y superficie -->
+        <item name="android:colorBackground">@color/background</item> <!-- Fondo de la aplicación -->
+        <item name="colorSurface">@color/surface</item> <!-- Color de las superficies (tarjetas, diálogos, etc.) -->
+        <item name="colorOnSurface">@color/on_surface</item> <!-- Color del texto sobre las superficies -->
+
+        <!-- Barra de estado -->
+        <item name="android:statusBarColor">@color/pokemonDarkRed</item> <!-- Color de la barra de estado -->
+        <item name="android:navigationBarColor">@color/pokemonDarkRed</item> <!-- Color de la barra de navegación -->
+
+        <!-- Tipografía -->
+        <item name="android:fontFamily">@font/pokemonsolid</item> <!-- Fuente principal -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Pokedex.Headline1</item> <!-- Estilo para títulos grandes -->
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Pokedex.Headline2</item> <!-- Estilo para títulos medianos -->
+        <item name="textAppearanceBody1">@style/TextAppearance.Pokedex.Body1</item> <!-- Estilo para texto normal -->
+        <item name="textAppearanceButton">@style/TextAppearance.Pokedex.Button</item> <!-- Estilo para botones -->
+
+        <!-- Bordes y elevaciones -->
+        <item name="cornerRadius">8dp</item> <!-- Radio de bordes por defecto -->
+        <item name="elevationOverlayEnabled">true</item> <!-- Habilitar sombras -->
+    </style>
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.Pokedex" parent="Base.Theme.Pokedex" />
+
+    <!-- Estilos de texto -->
+    <style name="TextAppearance.Pokedex.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textColor">@color/pokemonRed</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/pokemonsolid</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">@color/pokemonYellow</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/pokemonsolid</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/pokemonsolid</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/pokemonsolid</item>
+    </style>
+</resources>
