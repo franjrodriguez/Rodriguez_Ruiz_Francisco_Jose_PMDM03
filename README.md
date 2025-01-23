@@ -165,5 +165,10 @@ Como observación final, esta app me ha llevado a dar un paso más a remodelar m
 
 ***
 ### Capturas de pantalla
-![]()
-Pantalla de Logueo del usuario
+![Logueo de usuarios](assets/pk01.png)
+![Pokemons capturados](assets/pk02.png)
+![Detalles del Pokemon](assets/pk03.png)
+![Ajustes](assets/pk04.png)
+![Verificación del Cierre de Sesión del Usuario](assets/pk05.png)
+![Pokédex](assets/pk06.png)
+
